@@ -11,15 +11,12 @@
     <meta name="keywords" content="Katharina Brandtner, portfolio, computer science, design, UX/UI, user experience, user research, web development, interaction design, front-end development, prototyping, visual design, branding, accessibility, AI, generative design, Munich">
     <meta name="author" content="Katharina Brandtner">
     <meta name="robots" content="noindex,follow">
-
     <link rel="icon" type="image/png" href="/src/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <link rel="shortcut icon" href="/src/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/src/apple-touch-icon.png" />
     <link rel="manifest" href="/src/site.webmanifest" />
-
     <script src="https://kit.fontawesome.com/a9f92d875c.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -27,13 +24,10 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-light border-bottom fixed-top">
         <div class="container-fluid">
-
             <a class="navbar-brand" href="index.html">kb</a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -55,32 +49,25 @@
 
     <div class="body-canvas">
         <div class="container-canvas">
-
             <div class="portfolio-text">
                 <h1 class="hero-h1">PORTFOLIO</h1>
             </div>
-
             <div class="reveal-text">
                 <h1 class="mb-responsive-5">Computer Science & Design</h1>
                 <h1>based in Munich</h1>
                 <h1>Katharina Brandtner</h1>
             </div>
-
             <canvas id="revealCanvas"></canvas>
-
             <button id="resetButtonCanvas"><i class="fa-solid fa-arrow-rotate-right fa-sm fa-rotate-180"></i></button>
-
         </div>
     </div>
 
     <div class="container-fluid mb-responsive-8">
         <h2 class="p-containerfluid mb-responsive-5">some of the projects i have worked on</h2>
-
         <div class="p-containerfluid">
             <a href="project_ambulance.html" class="cursor-viewme"><img src="images/home_ambulance.png" class="img-fluid hoverscale img-shadow mb-img" width="100%" alt="ambulnace project"></a>
             <h3><a href="project_ambulance.html" class=" nounderlinedot">ambulance waiting concept</a></h3>
             <p class="small mb-responsive-2"><a href="project_ambulance.html" class=" nounderlinedot">university project for ambulance</a></p>
-
         </div>
         <div class="p-containerfluid">
             <a href="project_mcsip.html" class="cursor-viewme"><img src="images/home_mcsip.png" class="img-fluid hoverscale img-shadow mb-img" width="100%" alt="mcsip rebrand project"></a>
@@ -104,7 +91,6 @@
         more of my work you can view <a href="all_projects.html" class="underline">here</a>
     </h2>
         <div class="row">
-
             <div class="col-md-8 col-sm-12 p-containerfluid p-containerfluid-flex">
                 <a class="service home">new website</a>
                 <a class="service home">visual identity</a>
@@ -119,7 +105,6 @@
                 <a class="service home">web development</a>
                 <a class="service home">mobile first</a>
                 <a class="service home">creative coding</a>
-
             </div>
             <div class="col-md-4 col-sm-12"></div>
         </div>
@@ -127,7 +112,6 @@
 
     <div class="container-fluid mb-responsive-8">
         <h2 class="p-containerfluid mb-responsive-5">about me</h2>
-
         <div class="p-containerfluid">
             <p class="big mb-responsive-5">I’m katharina brandtner, a computer science & design student at the university of applied sciences in munich. i will graduate in june 2027. in university i learnd a lot about UI/ux design but also the process before and after - like user research
                 or testing.</p>
@@ -138,7 +122,6 @@
     <div id="contact" class="container-fluid mb-responsive-8">
         <img src="/images/pencil_blue.png" class="img-footer" alt=""></h1>
         <h1 class="h1-footer p-containerfluid border-footer-top"><img src="/images/letschat_blue.svg" alt="Let's Chat" class="chat-svg"></h1>
-
         <div class="p-containerfluid">
             <div class="row">
                 <div class="col-4">
@@ -151,20 +134,13 @@
                     <a href="src/resume.pdf" target="_blank" rel="noopener noreferrer" class="underline normal">resume</a>
                 </div>
             </div>
-
-
         </div>
     </div>
-
-
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
-
-
 
     <script>
         const canvas = document.getElementById("revealCanvas");
@@ -210,9 +186,6 @@
             lastX = x; 
             lastY = y;
             });
-    
-            
-    
             
             resetButton.addEventListener("click", () => {
                 resetCanvas(); 
@@ -227,8 +200,6 @@
                         draw(touch.clientX, touch.clientY);
                     }
                 });
-    
-    
                
             if (window.innerWidth < 1380) {
                 document.getElementById("revealCanvas").remove(); 
@@ -238,7 +209,6 @@
     
                 canvas.width = window.innerWidth;
                 canvas.height = window.innerHeight;
-    
                 
                 function resetCanvas() {
                     ctx.globalCompositeOperation = "source-over";
@@ -250,5 +220,4 @@
             }
     </script>
 </body>
-
 </html>
