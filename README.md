@@ -9,11 +9,11 @@ Hello! ✨ I am Katharina Brandtner, a Munich-based Computer Science & Design st
 Here are some of my works:
 
 - **[Ambulance Waiting Concept](project_ambulance.html)**  
-  ![Ambulance Project](images/readme/ambulance.png.png)  
+  ![Ambulance Project](images/readme/ambulance.png)  
   University project for ambulance-system.
 
 - **[Rebrand McDonald's / Mc Sip](project_mcsip.html)**  
-  ![McSip Project](images/readme/mcsip.png.png)  
+  ![McSip Project](images/readme/mcsip.png)  
   University rebranding project for mcdonsals.
 
 - **[Ferienwohnungen Franz Brandtner](project_fewo.html)**  
@@ -21,7 +21,7 @@ Here are some of my works:
   Website for holiday accommodations.
 
 - **[Eat - Easy and Tasty](project_eat.html)**  
-  ![Eat Project](images/readme/eat.png.png)  
+  ![Eat Project](images/readme/eat.png)  
   Corporate identity for a convenience food company.
 
 For more of my work, please visit [this page](all_projects.html).
