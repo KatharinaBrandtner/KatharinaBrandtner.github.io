@@ -1,6 +1,4 @@
-# KatharinaBrandtner.github.io
-
-# README.md for My Portfolio
+# KatharinaBrandtner.github.io PORTFOLIO
 
 ## About Me
 
@@ -11,19 +9,19 @@ Hello! ✨ I am Katharina Brandtner, a Munich-based Computer Science & Design st
 Here are some of my works:
 
 - **[Ambulance Waiting Concept](project_ambulance.html)**  
-  ![Ambulance Project](images/home_ambulance.png)  
+  ![Ambulance Project](images/readme/ambulance.png.png)  
   University project for ambulance-system.
 
 - **[Rebrand McDonald's / Mc Sip](project_mcsip.html)**  
-  ![McSip Project](images/home_mcsip.png)  
+  ![McSip Project](images/readme/mcsip.png.png)  
   University rebranding project for mcdonsals.
 
 - **[Ferienwohnungen Franz Brandtner](project_fewo.html)**  
-  ![Accommodation Project](images/home_fewo.png)  
+  ![Accommodation Project](images/readme/fewo.png)  
   Website for holiday accommodations.
 
 - **[Eat - Easy and Tasty](project_eat.html)**  
-  ![Eat Project](images/home_eat.png)  
+  ![Eat Project](images/readme/eat.png.png)  
   Corporate identity for a convenience food company.
 
 For more of my work, please visit [this page](all_projects.html).
@@ -34,8 +32,6 @@ For more of my work, please visit [this page](all_projects.html).
 - **Web Development**
 - **User  Research**
 - **Prototyping**
-
-## Contact
 
 ## Contact
 
