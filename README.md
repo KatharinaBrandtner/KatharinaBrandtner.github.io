@@ -1,4 +1,4 @@
-# KatharinaBrandtner.github.io PORTFOLIO
+# KatharinaBrandtner.github.io
 
 ## About Me
 
