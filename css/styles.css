@@ -169,7 +169,20 @@ h3 {
 	text-decoration: none;
 	transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
-
+@media (max-width: 768px) {
+	.service {
+		font-size: var(--normal-size);
+		font-weight: 400;
+		line-height: 98.28%;
+		color: var(--black);
+		border: var(--border-thickness) solid var(--black);
+		border-radius: 0.8rem;
+		padding: clamp(0.5rem, 2vw, 1.125rem) clamp(0.75rem, 2vw, 1.25rem);
+		display: inline-block;
+		text-decoration: none;
+		transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+	}
+}
 .p-containerfluid-flex>.home:hover {
 	background-color: var(--blue_20);
 	border-color: var(--blue);
@@ -213,6 +226,17 @@ h3 {
 	text-align: center;
 	white-space: nowrap;
 	
+}
+@media (max-width: 768px) {
+	.service-flex {
+		display: inline-block;
+		padding: 0.75rem 1.5rem;
+		border: 1px solid black;
+		border-radius: 0.8rem;
+		text-align: center;
+		white-space: nowrap;
+		
+	}
 }
 
 
@@ -418,6 +442,18 @@ nav {
 
 .img-radius-noshadow {
 	border-radius: 1.5625rem;
+}
+
+@media (max-width: 768px) {
+	.img-shadow,
+.img-shadow-noborder {
+	box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 0.8rem;
+}
+
+.img-radius-noshadow {
+	border-radius: 0.8rem;
+}
 }
 
 .chat-svg {
@@ -810,6 +846,21 @@ nav {
 	padding: clamp(0.5rem, 2vw, 1.125rem) clamp(0.75rem, 2vw, 1.25rem) 0 clamp(0.75rem, 2vw, 1.25rem);
 }
 
+@media (max-width: 768px) {
+	
+.iconbox,
+.iconboxwithouthover {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:left;
+	flex-grow: 1;
+	height: 100%;
+	border-radius: 0.8rem;
+	padding: clamp(0.5rem, 2vw, 1.125rem) clamp(0.75rem, 2vw, 1.25rem) 0 clamp(0.75rem, 2vw, 1.25rem);
+}
+}
+
 .iconbox-ambulance,
 .iconboxwithouthover-ambulance {
 	border: 3px solid var(--ambulance);
@@ -877,7 +928,7 @@ nav {
 
 .hero-h1 {
 	color: var(--blue);
-	font-size: clamp(2.3rem, 14vw, 20rem);
+	font-size: clamp(2.3rem, 14vw, 10rem);
 	font-style: normal !important;
 	font-weight: 600 !important;
 	line-height: 98.28% !important;
