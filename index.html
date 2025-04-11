@@ -17,8 +17,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/src/apple-touch-icon.png" />
     <link rel="manifest" href="/src/site.webmanifest" />
     <script src="https://kit.fontawesome.com/a9f92d875c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <style>
         ::selection {
@@ -123,7 +124,7 @@
         <div class="p-containerfluid">
             <p class="big mb-responsive-5">I’m katharina brandtner, a computer science & design student at the university of applied sciences in munich. i will graduate in june 2027. in university i learnd a lot about UI/ux design but also the process before and after - like user research
                 or testing.</p>
-            <p><a href="about_me.html" class="dot_blue underline big">More about me</a></p>
+            <p data-aos="fade-right"  data-aos-duration="700" data-aos-easing="ease-out-cubic"><a href="about_me.html" class="dot_blue underline big">More about me</a></p>
         </div>
     </div>
 
@@ -146,8 +147,12 @@
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
+    <script> 
+        AOS.init({
+            offset: 120, 
+            once: false, 
+            mirror: false, 
+        });
     </script>
 
     <script>

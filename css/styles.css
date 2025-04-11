@@ -1012,10 +1012,7 @@ canvas {
 	display: none;
 	}
 
-	.newsizeh1{
-		/* font-size: var(--h1-size); */
-	}
-
+	
 	#resetButtonCanvas {
 	display: none;
 	}
@@ -1051,7 +1048,7 @@ video::-webkit-media-controls {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 4; /* Sicherstellen, dass es nicht hinter anderen Elementen verschwindet */
+    z-index: 4; 
     cursor: url("../src/cursor.cur"), auto;
     pointer-events: auto;
 }
